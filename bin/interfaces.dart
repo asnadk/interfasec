@@ -1,15 +1,15 @@
-class Abc {  
+class Name {  
    void printdata() {  
-      print("abc");  
+      print("asnad");  
    }  
 }   
-class ABC implements Abc {  
+class Fullname implements Name {  
   @override
    void printdata() {   
-      print("ABC");  
+      print("asnad k");  
    }  
 }
 void main(){ 
-      Abc obj= Abc(); 
+       Fullname obj= Fullname(); 
    obj.printdata();  
 } 
